@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF26D02625643217007A544A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26D02525643217007A544A /* AppDelegate.swift */; };
+		BF26D02825643217007A544A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26D02725643217007A544A /* SceneDelegate.swift */; };
+		BF26D02A25643217007A544A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26D02925643217007A544A /* ViewController.swift */; };
+		BF26D02D25643217007A544A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26D02B25643217007A544A /* Main.storyboard */; };
+		BF26D02F25643218007A544A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF26D02E25643218007A544A /* Assets.xcassets */; };
+		BF26D03225643218007A544A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF26D03025643218007A544A /* LaunchScreen.storyboard */; };
+		BF26D03C25643662007A544A /* Scar-Tissue.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D03B25643662007A544A /* Scar-Tissue.mp3 */; };
+		BF26D03F25643691007A544A /* Look-Around.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D03E25643691007A544A /* Look-Around.mp3 */; };
+		BF26D042256436C9007A544A /* Goodbye-Angels.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D041256436C9007A544A /* Goodbye-Angels.mp3 */; };
+		BF26D04525643BC1007A544A /* PlayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF26D04425643BC1007A544A /* PlayerViewController.swift */; };
+		BF26D05425644093007A544A /* The-Getaway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04825644093007A544A /* The-Getaway.mp3 */; };
+		BF26D05525644093007A544A /* Dreams-of-a-Samurai.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04925644093007A544A /* Dreams-of-a-Samurai.mp3 */; };
+		BF26D05625644093007A544A /* Detroit.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04A25644093007A544A /* Detroit.mp3 */; };
+		BF26D05725644093007A544A /* Feasting-on-the-Flowers.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04B25644093007A544A /* Feasting-on-the-Flowers.mp3 */; };
+		BF26D05825644093007A544A /* The-Hunter.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04C25644093007A544A /* The-Hunter.mp3 */; };
+		BF26D05925644093007A544A /* Encore.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04D25644093007A544A /* Encore.mp3 */; };
+		BF26D05A25644093007A544A /* Sick-Love.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04E25644093007A544A /* Sick-Love.mp3 */; };
+		BF26D05B25644093007A544A /* Go-Robot.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D04F25644093007A544A /* Go-Robot.mp3 */; };
+		BF26D05C25644093007A544A /* We-Turn-Red.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D05025644093007A544A /* We-Turn-Red.mp3 */; };
+		BF26D05D25644093007A544A /* This-Ticonderoga.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D05125644093007A544A /* This-Ticonderoga.mp3 */; };
+		BF26D05E25644093007A544A /* The-Longest-Wave.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D05225644093007A544A /* The-Longest-Wave.mp3 */; };
+		BF26D05F25644093007A544A /* Dark-Necessities.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D05325644093007A544A /* Dark-Necessities.mp3 */; };
+		BF26D06E25644209007A544A /* The-Adventures-of-Rain-Dance-Maggie.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06125644208007A544A /* The-Adventures-of-Rain-Dance-Maggie.mp3 */; };
+		BF26D06F25644209007A544A /* Happiness-Loves-Company.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06225644208007A544A /* Happiness-Loves-Company.mp3 */; };
+		BF26D07025644209007A544A /* Ethiopia.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06325644208007A544A /* Ethiopia.mp3 */; };
+		BF26D07125644209007A544A /* Brendan's-Death-Song.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06425644208007A544A /* Brendan's-Death-Song.mp3 */; };
+		BF26D07225644209007A544A /* Monarchy-Of-Roses.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06525644209007A544A /* Monarchy-Of-Roses.mp3 */; };
+		BF26D07325644209007A544A /* Annie-Wants-A-Baby.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06625644209007A544A /* Annie-Wants-A-Baby.mp3 */; };
+		BF26D07425644209007A544A /* Even-You-Brutus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06725644209007A544A /* Even-You-Brutus.mp3 */; };
+		BF26D07525644209007A544A /* Factory-Of-Faith.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06825644209007A544A /* Factory-Of-Faith.mp3 */; };
+		BF26D07625644209007A544A /* Meet-Me-At-The-Corner.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06925644209007A544A /* Meet-Me-At-The-Corner.mp3 */; };
+		BF26D07725644209007A544A /* Police-Station.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06A25644209007A544A /* Police-Station.mp3 */; };
+		BF26D07825644209007A544A /* Did-I-Let-You-Know.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06B25644209007A544A /* Did-I-Let-You-Know.mp3 */; };
+		BF26D07925644209007A544A /* Goodbye-Hooray.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06C25644209007A544A /* Goodbye-Hooray.mp3 */; };
+		BF26D07A25644209007A544A /* Dance,-Dance,-Dance.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D06D25644209007A544A /* Dance,-Dance,-Dance.mp3 */; };
+		BF26D08A2564441D007A544A /* Emit-Remmus.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D07C2564441D007A544A /* Emit-Remmus.mp3 */; };
+		BF26D08B2564441D007A544A /* Right-on-Time.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D07D2564441D007A544A /* Right-on-Time.mp3 */; };
+		BF26D08C2564441D007A544A /* This-Velvet-Glove.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D07E2564441D007A544A /* This-Velvet-Glove.mp3 */; };
+		BF26D08D2564441D007A544A /* Otherside.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D07F2564441D007A544A /* Otherside.mp3 */; };
+		BF26D08E2564441D007A544A /* Purple-Stain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0802564441D007A544A /* Purple-Stain.mp3 */; };
+		BF26D08F2564441D007A544A /* Around-the-World.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0812564441D007A544A /* Around-the-World.mp3 */; };
+		BF26D0902564441D007A544A /* Californication.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0822564441D007A544A /* Californication.mp3 */; };
+		BF26D0912564441D007A544A /* Savior.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0832564441D007A544A /* Savior.mp3 */; };
+		BF26D0922564441D007A544A /* Get-on-Top.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0842564441D007A544A /* Get-on-Top.mp3 */; };
+		BF26D0932564441D007A544A /* Parallel-Universe.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0852564441D007A544A /* Parallel-Universe.mp3 */; };
+		BF26D0942564441D007A544A /* Road-Trippin'.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0862564441D007A544A /* Road-Trippin'.mp3 */; };
+		BF26D0952564441D007A544A /* I-Like-Dirt.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0872564441D007A544A /* I-Like-Dirt.mp3 */; };
+		BF26D0962564441D007A544A /* Porcelain.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0882564441D007A544A /* Porcelain.mp3 */; };
+		BF26D0972564441D007A544A /* Easily.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = BF26D0892564441D007A544A /* Easily.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BF26D02225643217007A544A /* music-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "music-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF26D02525643217007A544A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF26D02725643217007A544A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BF26D02925643217007A544A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BF26D02C25643217007A544A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF26D02E25643218007A544A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF26D03125643218007A544A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF26D03325643218007A544A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BF26D03B25643662007A544A /* Scar-Tissue.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Scar-Tissue.mp3"; sourceTree = "<group>"; };
+		BF26D03E25643691007A544A /* Look-Around.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Look-Around.mp3"; sourceTree = "<group>"; };
+		BF26D041256436C9007A544A /* Goodbye-Angels.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Goodbye-Angels.mp3"; sourceTree = "<group>"; };
+		BF26D04425643BC1007A544A /* PlayerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerViewController.swift; sourceTree = "<group>"; };
+		BF26D04825644093007A544A /* The-Getaway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The-Getaway.mp3"; sourceTree = "<group>"; };
+		BF26D04925644093007A544A /* Dreams-of-a-Samurai.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dreams-of-a-Samurai.mp3"; sourceTree = "<group>"; };
+		BF26D04A25644093007A544A /* Detroit.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Detroit.mp3; sourceTree = "<group>"; };
+		BF26D04B25644093007A544A /* Feasting-on-the-Flowers.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Feasting-on-the-Flowers.mp3"; sourceTree = "<group>"; };
+		BF26D04C25644093007A544A /* The-Hunter.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The-Hunter.mp3"; sourceTree = "<group>"; };
+		BF26D04D25644093007A544A /* Encore.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Encore.mp3; sourceTree = "<group>"; };
+		BF26D04E25644093007A544A /* Sick-Love.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Sick-Love.mp3"; sourceTree = "<group>"; };
+		BF26D04F25644093007A544A /* Go-Robot.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Go-Robot.mp3"; sourceTree = "<group>"; };
+		BF26D05025644093007A544A /* We-Turn-Red.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "We-Turn-Red.mp3"; sourceTree = "<group>"; };
+		BF26D05125644093007A544A /* This-Ticonderoga.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "This-Ticonderoga.mp3"; sourceTree = "<group>"; };
+		BF26D05225644093007A544A /* The-Longest-Wave.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The-Longest-Wave.mp3"; sourceTree = "<group>"; };
+		BF26D05325644093007A544A /* Dark-Necessities.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dark-Necessities.mp3"; sourceTree = "<group>"; };
+		BF26D06125644208007A544A /* The-Adventures-of-Rain-Dance-Maggie.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "The-Adventures-of-Rain-Dance-Maggie.mp3"; sourceTree = "<group>"; };
+		BF26D06225644208007A544A /* Happiness-Loves-Company.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Happiness-Loves-Company.mp3"; sourceTree = "<group>"; };
+		BF26D06325644208007A544A /* Ethiopia.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Ethiopia.mp3; sourceTree = "<group>"; };
+		BF26D06425644208007A544A /* Brendan's-Death-Song.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Brendan's-Death-Song.mp3"; sourceTree = "<group>"; };
+		BF26D06525644209007A544A /* Monarchy-Of-Roses.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Monarchy-Of-Roses.mp3"; sourceTree = "<group>"; };
+		BF26D06625644209007A544A /* Annie-Wants-A-Baby.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Annie-Wants-A-Baby.mp3"; sourceTree = "<group>"; };
+		BF26D06725644209007A544A /* Even-You-Brutus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Even-You-Brutus.mp3"; sourceTree = "<group>"; };
+		BF26D06825644209007A544A /* Factory-Of-Faith.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Factory-Of-Faith.mp3"; sourceTree = "<group>"; };
+		BF26D06925644209007A544A /* Meet-Me-At-The-Corner.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Meet-Me-At-The-Corner.mp3"; sourceTree = "<group>"; };
+		BF26D06A25644209007A544A /* Police-Station.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Police-Station.mp3"; sourceTree = "<group>"; };
+		BF26D06B25644209007A544A /* Did-I-Let-You-Know.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Did-I-Let-You-Know.mp3"; sourceTree = "<group>"; };
+		BF26D06C25644209007A544A /* Goodbye-Hooray.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Goodbye-Hooray.mp3"; sourceTree = "<group>"; };
+		BF26D06D25644209007A544A /* Dance,-Dance,-Dance.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Dance,-Dance,-Dance.mp3"; sourceTree = "<group>"; };
+		BF26D07C2564441D007A544A /* Emit-Remmus.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Emit-Remmus.mp3"; sourceTree = "<group>"; };
+		BF26D07D2564441D007A544A /* Right-on-Time.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Right-on-Time.mp3"; sourceTree = "<group>"; };
+		BF26D07E2564441D007A544A /* This-Velvet-Glove.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "This-Velvet-Glove.mp3"; sourceTree = "<group>"; };
+		BF26D07F2564441D007A544A /* Otherside.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Otherside.mp3; sourceTree = "<group>"; };
+		BF26D0802564441D007A544A /* Purple-Stain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Purple-Stain.mp3"; sourceTree = "<group>"; };
+		BF26D0812564441D007A544A /* Around-the-World.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Around-the-World.mp3"; sourceTree = "<group>"; };
+		BF26D0822564441D007A544A /* Californication.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Californication.mp3; sourceTree = "<group>"; };
+		BF26D0832564441D007A544A /* Savior.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Savior.mp3; sourceTree = "<group>"; };
+		BF26D0842564441D007A544A /* Get-on-Top.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Get-on-Top.mp3"; sourceTree = "<group>"; };
+		BF26D0852564441D007A544A /* Parallel-Universe.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Parallel-Universe.mp3"; sourceTree = "<group>"; };
+		BF26D0862564441D007A544A /* Road-Trippin'.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Road-Trippin'.mp3"; sourceTree = "<group>"; };
+		BF26D0872564441D007A544A /* I-Like-Dirt.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "I-Like-Dirt.mp3"; sourceTree = "<group>"; };
+		BF26D0882564441D007A544A /* Porcelain.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Porcelain.mp3; sourceTree = "<group>"; };
+		BF26D0892564441D007A544A /* Easily.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Easily.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF26D01F25643217007A544A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF26D01925643217007A544A = {
+			isa = PBXGroup;
+			children = (
+				BF26D02425643217007A544A /* music-app */,
+				BF26D02325643217007A544A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF26D02325643217007A544A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF26D02225643217007A544A /* music-app.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF26D02425643217007A544A /* music-app */ = {
+			isa = PBXGroup;
+			children = (
+				BF26D03A25643473007A544A /* Audio */,
+				BF26D02525643217007A544A /* AppDelegate.swift */,
+				BF26D02725643217007A544A /* SceneDelegate.swift */,
+				BF26D02925643217007A544A /* ViewController.swift */,
+				BF26D02B25643217007A544A /* Main.storyboard */,
+				BF26D02E25643218007A544A /* Assets.xcassets */,
+				BF26D03025643218007A544A /* LaunchScreen.storyboard */,
+				BF26D03325643218007A544A /* Info.plist */,
+				BF26D04425643BC1007A544A /* PlayerViewController.swift */,
+			);
+			path = "music-app";
+			sourceTree = "<group>";
+		};
+		BF26D03A25643473007A544A /* Audio */ = {
+			isa = PBXGroup;
+			children = (
+				BF26D04825644093007A544A /* The-Getaway.mp3 */,
+				BF26D05325644093007A544A /* Dark-Necessities.mp3 */,
+				BF26D05025644093007A544A /* We-Turn-Red.mp3 */,
+				BF26D05225644093007A544A /* The-Longest-Wave.mp3 */,
+				BF26D04E25644093007A544A /* Sick-Love.mp3 */,
+				BF26D04F25644093007A544A /* Go-Robot.mp3 */,
+				BF26D04B25644093007A544A /* Feasting-on-the-Flowers.mp3 */,
+				BF26D04A25644093007A544A /* Detroit.mp3 */,
+				BF26D05125644093007A544A /* This-Ticonderoga.mp3 */,
+				BF26D04D25644093007A544A /* Encore.mp3 */,
+				BF26D04C25644093007A544A /* The-Hunter.mp3 */,
+				BF26D04925644093007A544A /* Dreams-of-a-Samurai.mp3 */,
+				BF26D041256436C9007A544A /* Goodbye-Angels.mp3 */,
+				BF26D03E25643691007A544A /* Look-Around.mp3 */,
+				BF26D06525644209007A544A /* Monarchy-Of-Roses.mp3 */,
+				BF26D06825644209007A544A /* Factory-Of-Faith.mp3 */,
+				BF26D06425644208007A544A /* Brendan's-Death-Song.mp3 */,
+				BF26D06325644208007A544A /* Ethiopia.mp3 */,
+				BF26D06625644209007A544A /* Annie-Wants-A-Baby.mp3 */,
+				BF26D06125644208007A544A /* The-Adventures-of-Rain-Dance-Maggie.mp3 */,
+				BF26D06B25644209007A544A /* Did-I-Let-You-Know.mp3 */,
+				BF26D06C25644209007A544A /* Goodbye-Hooray.mp3 */,
+				BF26D06225644208007A544A /* Happiness-Loves-Company.mp3 */,
+				BF26D06A25644209007A544A /* Police-Station.mp3 */,
+				BF26D06725644209007A544A /* Even-You-Brutus.mp3 */,
+				BF26D06925644209007A544A /* Meet-Me-At-The-Corner.mp3 */,
+				BF26D06D25644209007A544A /* Dance,-Dance,-Dance.mp3 */,
+				BF26D03B25643662007A544A /* Scar-Tissue.mp3 */,
+				BF26D0812564441D007A544A /* Around-the-World.mp3 */,
+				BF26D0852564441D007A544A /* Parallel-Universe.mp3 */,
+				BF26D07F2564441D007A544A /* Otherside.mp3 */,
+				BF26D0842564441D007A544A /* Get-on-Top.mp3 */,
+				BF26D0822564441D007A544A /* Californication.mp3 */,
+				BF26D0892564441D007A544A /* Easily.mp3 */,
+				BF26D0882564441D007A544A /* Porcelain.mp3 */,
+				BF26D07C2564441D007A544A /* Emit-Remmus.mp3 */,
+				BF26D0872564441D007A544A /* I-Like-Dirt.mp3 */,
+				BF26D07E2564441D007A544A /* This-Velvet-Glove.mp3 */,
+				BF26D0832564441D007A544A /* Savior.mp3 */,
+				BF26D0802564441D007A544A /* Purple-Stain.mp3 */,
+				BF26D07D2564441D007A544A /* Right-on-Time.mp3 */,
+				BF26D0862564441D007A544A /* Road-Trippin'.mp3 */,
+			);
+			path = Audio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF26D02125643217007A544A /* music-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF26D03625643218007A544A /* Build configuration list for PBXNativeTarget "music-app" */;
+			buildPhases = (
+				BF26D01E25643217007A544A /* Sources */,
+				BF26D01F25643217007A544A /* Frameworks */,
+				BF26D02025643217007A544A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "music-app";
+			productName = "music-app";
+			productReference = BF26D02225643217007A544A /* music-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF26D01A25643217007A544A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1220;
+				LastUpgradeCheck = 1220;
+				TargetAttributes = {
+					BF26D02125643217007A544A = {
+						CreatedOnToolsVersion = 12.2;
+					};
+				};
+			};
+			buildConfigurationList = BF26D01D25643217007A544A /* Build configuration list for PBXProject "music-app" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF26D01925643217007A544A;
+			productRefGroup = BF26D02325643217007A544A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF26D02125643217007A544A /* music-app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF26D02025643217007A544A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26D07125644209007A544A /* Brendan's-Death-Song.mp3 in Resources */,
+				BF26D0902564441D007A544A /* Californication.mp3 in Resources */,
+				BF26D05E25644093007A544A /* The-Longest-Wave.mp3 in Resources */,
+				BF26D08A2564441D007A544A /* Emit-Remmus.mp3 in Resources */,
+				BF26D05925644093007A544A /* Encore.mp3 in Resources */,
+				BF26D07525644209007A544A /* Factory-Of-Faith.mp3 in Resources */,
+				BF26D07925644209007A544A /* Goodbye-Hooray.mp3 in Resources */,
+				BF26D03225643218007A544A /* LaunchScreen.storyboard in Resources */,
+				BF26D03F25643691007A544A /* Look-Around.mp3 in Resources */,
+				BF26D05725644093007A544A /* Feasting-on-the-Flowers.mp3 in Resources */,
+				BF26D02F25643218007A544A /* Assets.xcassets in Resources */,
+				BF26D07025644209007A544A /* Ethiopia.mp3 in Resources */,
+				BF26D05425644093007A544A /* The-Getaway.mp3 in Resources */,
+				BF26D0912564441D007A544A /* Savior.mp3 in Resources */,
+				BF26D0922564441D007A544A /* Get-on-Top.mp3 in Resources */,
+				BF26D0942564441D007A544A /* Road-Trippin'.mp3 in Resources */,
+				BF26D08F2564441D007A544A /* Around-the-World.mp3 in Resources */,
+				BF26D05A25644093007A544A /* Sick-Love.mp3 in Resources */,
+				BF26D07325644209007A544A /* Annie-Wants-A-Baby.mp3 in Resources */,
+				BF26D02D25643217007A544A /* Main.storyboard in Resources */,
+				BF26D05F25644093007A544A /* Dark-Necessities.mp3 in Resources */,
+				BF26D05825644093007A544A /* The-Hunter.mp3 in Resources */,
+				BF26D042256436C9007A544A /* Goodbye-Angels.mp3 in Resources */,
+				BF26D07A25644209007A544A /* Dance,-Dance,-Dance.mp3 in Resources */,
+				BF26D03C25643662007A544A /* Scar-Tissue.mp3 in Resources */,
+				BF26D08D2564441D007A544A /* Otherside.mp3 in Resources */,
+				BF26D05625644093007A544A /* Detroit.mp3 in Resources */,
+				BF26D06F25644209007A544A /* Happiness-Loves-Company.mp3 in Resources */,
+				BF26D0932564441D007A544A /* Parallel-Universe.mp3 in Resources */,
+				BF26D0952564441D007A544A /* I-Like-Dirt.mp3 in Resources */,
+				BF26D05D25644093007A544A /* This-Ticonderoga.mp3 in Resources */,
+				BF26D07225644209007A544A /* Monarchy-Of-Roses.mp3 in Resources */,
+				BF26D05525644093007A544A /* Dreams-of-a-Samurai.mp3 in Resources */,
+				BF26D05B25644093007A544A /* Go-Robot.mp3 in Resources */,
+				BF26D05C25644093007A544A /* We-Turn-Red.mp3 in Resources */,
+				BF26D0972564441D007A544A /* Easily.mp3 in Resources */,
+				BF26D08B2564441D007A544A /* Right-on-Time.mp3 in Resources */,
+				BF26D07425644209007A544A /* Even-You-Brutus.mp3 in Resources */,
+				BF26D08C2564441D007A544A /* This-Velvet-Glove.mp3 in Resources */,
+				BF26D07825644209007A544A /* Did-I-Let-You-Know.mp3 in Resources */,
+				BF26D06E25644209007A544A /* The-Adventures-of-Rain-Dance-Maggie.mp3 in Resources */,
+				BF26D07725644209007A544A /* Police-Station.mp3 in Resources */,
+				BF26D0962564441D007A544A /* Porcelain.mp3 in Resources */,
+				BF26D08E2564441D007A544A /* Purple-Stain.mp3 in Resources */,
+				BF26D07625644209007A544A /* Meet-Me-At-The-Corner.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF26D01E25643217007A544A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF26D02A25643217007A544A /* ViewController.swift in Sources */,
+				BF26D04525643BC1007A544A /* PlayerViewController.swift in Sources */,
+				BF26D02625643217007A544A /* AppDelegate.swift in Sources */,
+				BF26D02825643217007A544A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF26D02B25643217007A544A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26D02C25643217007A544A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF26D03025643218007A544A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF26D03125643218007A544A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF26D03425643218007A544A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF26D03525643218007A544A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF26D03725643218007A544A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XKWM42Q2C;
+				INFOPLIST_FILE = "music-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "paulo-dallastra.music-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BF26D03825643218007A544A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2XKWM42Q2C;
+				INFOPLIST_FILE = "music-app/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "paulo-dallastra.music-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF26D01D25643217007A544A /* Build configuration list for PBXProject "music-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26D03425643218007A544A /* Debug */,
+				BF26D03525643218007A544A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF26D03625643218007A544A /* Build configuration list for PBXNativeTarget "music-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF26D03725643218007A544A /* Debug */,
+				BF26D03825643218007A544A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF26D01A25643217007A544A /* Project object */;
+}
