@@ -10,6 +10,6 @@ The idea was to apply the knowledge earned after studying XCode + Swift into a r
 
 ## Execution
 
-It will be necessary to make sure that the assets has the "album1", "album2", and "album3" set with the images provided here. Also, it will be important to download the audio file and after unzip it, paste the folder into the music-app project. After making sure those files are set in the right places, you will be able to run the code.
+It will be necessary to make sure that the assets has the "album1", "album2", and "album3" set with the images provided here. Also, it will be important to download the audio file (https://www.4shared.com/zip/2Ree-5H_ea/Audio.html) and after unzip it, paste the folder into the music-app project. After making sure those files are set in the right places, you will be able to run the code.
 Clicking on the title will pop up another Display View allowing the user to play/stop, go to the next or previous title.
 ![App Running](screenshot.png)
